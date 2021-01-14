@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9fafb;
+  font-family:'Open Sans' , 'sans-serif' ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  color: #3498db;
+}
+
+.admin_class {
+  /* background-image: url(https://assetscdn1.paytm.com/images/catalog/view_item/494829/1577703163576.jpg); */
+  background-image: url(https://travelblog.paytm.com/wp-content/uploads/2018/04/Feature_Img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+
+}
+
+.new_user_class{
+  background-image: url(https://assetscdn1.paytm.com/images/catalog/view_item/494829/1577703163576.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.user_login_class {
+  background-image: url(https://thumbs.dreamstime.com/b/queue-to-check-airport-people-luggage-walking-security-group-tourist-wait-line-vector-illustration-cartoon-150811107.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center center; */
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  width: 400px;
+  
+}
+
+.form {
+  padding: 20px 40px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  color: #777;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 10px ;
+  font-size: 14px;
+}
+
+.form button {
+  cursor: pointer;
+  background-color: #3498db;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+  color: white;
+  display: block;
+  font-size: 16px;
+  padding:10px ;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.home-link {
+  text-align: center;
+  margin: 15px 0px;
+  padding: 10px;
+  display: block;
+  background-color: #3498db;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+  font-size: 20px;
+  width: 100%;
+  
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
