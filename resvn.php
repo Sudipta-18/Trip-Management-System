@@ -1,11 +1,15 @@
 <html>
-<body style=" background-image: url(pnglogin.jpg);
+<body style=" background-image: url(adminlogin.jpeg);
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;" >
+    background-size: cover;
+    " >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="CSS/index_style/index_style.css" />
 <form action="new_png.php" method="post">
 
 <?php 
@@ -70,5 +74,5 @@ $conn->close();
 ?>
 
 <br><br><input type="submit" value="Book">
-</body>
+</>
 </html>

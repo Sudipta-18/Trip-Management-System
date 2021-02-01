@@ -1,9 +1,16 @@
 <html>
-<body style=" background-image: url(pnglogin.jpg);
+<body style=" background-image: url(adminlogin.jpeg);
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;" >
+    background-size: cover;
+    " >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="CSS/index_style/index_styles.css" />
+
 
 
 <?php 
@@ -35,14 +42,14 @@ $result=mysqli_query($conn,"CALL calculate_fares('$tno','$sp','$dp','$doj','$cla
 $row= mysqli_fetch_array($result);
 $fare= $row[1];
 
-echo "Total fare is Rs.".$fare."/-";
+echo "<h2>Total fare is Rs.".$fare."/-</h2>";
 
-echo "<br><br>Reservation Successful";
+echo "<br><br><h2>Reservation Successful</h2>";
 
 $rpnr=$row[0];
 
 
-echo "<br><br>your pnr is".$rpnr."/-";
+echo "<br><br><h2>your pnr is".$rpnr."</h2>";
 
 
 
